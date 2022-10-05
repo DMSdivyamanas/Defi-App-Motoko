@@ -1,0 +1,6 @@
+service : {
+  checkAmount: () -> (float64) query;
+  compund: () -> () oneway;
+  topUp: (float64) -> () oneway;
+  withdraw: (float64) -> () oneway;
+}

@@ -1,0 +1,35 @@
+{
+  "canisters": {
+    "deFi": {
+      "main": "src/deFi/main.mo",
+      "type": "motoko"
+    },
+    "deFi_assets": {
+      "dependencies": [
+        "deFi"
+      ],
+      "frontend": {
+        "entrypoint": "src/deFi_assets/src/index.html"
+      },
+      "source": [
+        "src/deFi_assets/assets",
+        "dist/deFi_assets/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.9.3",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
