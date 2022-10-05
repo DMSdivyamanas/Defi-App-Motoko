@@ -1,5 +1,8 @@
 This DeFi projet is made using the Dfintiy's Internet Computer and Motoko Language.
+
 The projects works as a bank where you can store your currencies(simple money in this case) and Earn interest on it Over time.The backened of this application is made through motoko language and frontened with Html Css and Java script. Here is a preview of the application.
+
+The main aim to make this app for me is to learn future tech and get to know about their advantage over other techs.Since this application uses blockchain technology it can be called decentralized and I hope to make more better projects in future.
 
 ![readme 1 defi](https://user-images.githubusercontent.com/98876605/194024004-ec8a52d5-633a-4467-91ff-cbd4faaa6d70.png)
 
@@ -7,7 +10,7 @@ The projects works as a bank where you can store your currencies(simple money in
 If you  want to run the project locally follow the below Given steps :-
 (make sure you Ubuntu installed if using Win or Mac)
 
-This project can be hosted on the Dfinity's Ic network but since that would require tokens I have simply uploaded the code  on Github and if anyone wnats to run the Project they can do so locally.
+This project can be hosted on the Dfinity's Ic network but since that would require tokens I have simply uploaded the code  on Github and if anyone wants to run the Project they can do so locally.
 
 ## Running the project locally
 
